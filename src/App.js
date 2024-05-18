@@ -16,7 +16,6 @@ import "react-toastify/dist/ReactToastify.css";
 import Profile from "./components/Profile";
 import { auth } from "./components/Firebase";
 
-
 function App() {
 
   const [user, setUser] = useState();
